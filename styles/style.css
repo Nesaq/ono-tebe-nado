@@ -234,7 +234,6 @@
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 50% 50%;
   column-gap: 25px;
-  padding: 181px 50px 0;
 }
 
 .about__logo {
