@@ -291,8 +291,8 @@
 
 .footer {
   display: flex;
-  padding: 182px 50px 90px 50px;
   justify-content: space-between;
+  padding: 182px 50px 90px 50px;
 }
 
 .footer__menu-list {
@@ -300,10 +300,10 @@
 }
 
 .footer__menu-list-item {
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
 }
 
