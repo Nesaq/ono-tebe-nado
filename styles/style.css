@@ -1,17 +1,12 @@
 .header {
-  display: grid;
-  grid-template-columns: auto minmax(209px, 1fr) 136px minmax(355px, 1fr) auto;
+  display: flex;
+  padding: 92px 51px;
   align-items: center;
-  padding: 91px 50px;
-  gap: 0;
+  justify-content: space-between;
 }
 
 a:hover {
   color: #007bff;
-}
-
-.header__menu {
-  grid-column: 1 / 2;
 }
 
 .header__menu-list {
@@ -36,14 +31,14 @@ a:hover {
 
 .header__menu-link {
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 1px solid #000;
 }
 
 .header__logo {
   display: block;
   width: 136px;
   height: auto;
-  grid-column: 3 / 4;
+  margin-left: 213px;
 }
 
 .address {
@@ -56,11 +51,11 @@ a:hover {
 
 .address a {
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 1px solid black;
 }
 
 .header__address {
-  grid-column: 5 / 6;
+  margin-left: auto;
 }
 
 /* cover */
@@ -264,10 +259,6 @@ a:hover {
   max-height: 115px;
 }
 
-.about__logo-image {
-  width: 100%;
-}
-
 .about__title {
   font-size: 40px;
   font-weight: 700;
@@ -286,7 +277,7 @@ a:hover {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 182px 50px 90px 50px;
+  padding: 0px 50px 90px 50px;
 }
 
 .footer__menu-list {
