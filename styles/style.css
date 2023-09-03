@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: auto minmax(209px, 1fr) 136px minmax(355px, 1fr) auto;
+  grid-template-columns: auto minmax(209px, 1fr) 148px minmax(355px, 1fr) auto;
   align-items: center;
   padding: 91px 50px;
   gap: 0;
@@ -41,7 +41,7 @@ a:hover {
 
 .header__logo {
   display: block;
-  width: 136px;
+  width: 148px;
   height: auto;
   grid-column: 3 / 4;
 }
@@ -246,18 +246,10 @@ a:hover {
 .about__logo {
   width: 240px;
   background-color: #000000;
-  border-radius: 240px;
+  border-radius: 50%;
   padding: 63px 46px;
 }
 
-.about__logo-background {
-  display: flex;
-  align-items: center;
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  background-color: #000;
-}
 
 .about__logo-image {
   max-height: 115px;
@@ -281,7 +273,7 @@ a:hover {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px 90px 50px;
+  padding: 5px 50px 90px 50px;
 }
 
 .footer__menu-list {
